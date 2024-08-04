@@ -1,0 +1,169 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav {
+    text-align: right;
+  }
+  
+  .nav a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  .section {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .featured-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .product {
+    text-align: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product h3 {
+    margin-top: 10px;
+  }
+  
+  .product p {
+    margin-bottom: 0;
+  }
+  
+  .description {
+    margin-top: 20px;
+  }
+  
+  .description h2 {
+    margin-top: 0;
+  }
+  
+  .description p {
+    margin-bottom: 20px;
+  }
+  
+  .login {
+    margin-top: 20px;
+  }
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+  
+  .login button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile {
+    margin-top: 20px;
+  }
+  
+  .profile form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+  
+  .profile button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact {
+    margin-top: 20px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact input, .contact textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #fff;
+    padding: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }
